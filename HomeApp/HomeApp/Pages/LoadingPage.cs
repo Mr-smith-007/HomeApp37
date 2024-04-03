@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace HomeApp
+namespace HomeApp.Pages
 {
     public class LoadingPage : ContentPage
     {
