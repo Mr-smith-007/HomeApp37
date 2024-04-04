@@ -29,8 +29,9 @@ namespace HomeApp.Pages
             }
             else if (loginCouner > 5) 
             {                
-                loginButton.IsEnabled = false;                
-                errorMessage.Text = "Слишком много попыток! Попробуйте позже.";
+                loginButton.IsEnabled = false;
+                var infoMessage = (Label)stackLayout.Children.Last();
+                infoMessage.Text = "Слишком много попыток! Попробуйте позже";
             }
             else
             {                
