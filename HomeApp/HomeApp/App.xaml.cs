@@ -11,7 +11,7 @@ namespace HomeApp
         {
             InitializeComponent();
 
-            MainPage = new NewDevicePage(); //new GridPage(); //new AboutPage(); //new ClimatePage(); //new DevicesPage(); //new RoomsPage(); //new LoginPage(); //new LoadingPage(); //new MainPage();
+            MainPage = new DevicesPage(); //new NewDevicePage(); //new GridPage(); //new AboutPage(); //new ClimatePage(); //new RoomsPage(); //new LoginPage(); //new LoadingPage(); //new MainPage();
         }
 
         protected override void OnStart()
